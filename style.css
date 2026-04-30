@@ -1,0 +1,73 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #eef7f1;
+  display: flex;
+  justify-content: center;
+  align-items: center; /* centraliza vertical */
+  height: 100vh; /* ocupa altura total da tela */
+  margin: 0;
+}
+
+.container {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 400px;
+}
+
+h1 {
+  text-align: center;
+  color: #2d6a4f;
+}
+
+.saldo-card {
+  background: #2d6a4f;
+  color: #fff;
+  padding: 15px;
+  border-radius: 6px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.botoes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background: #40916c;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn-limpar {
+  grid-column: span 2;
+  background: #74c69d;
+}
+
+.alerta {
+  padding: 8px;
+  border-radius: 5px;
+  text-align: center;
+  margin-bottom: 10px;
+  background: #d8f3dc;
+  color: #1b4332;
+}
+
+.extrato {
+  margin-top: 15px;
+  font-size: 14px;
+}
